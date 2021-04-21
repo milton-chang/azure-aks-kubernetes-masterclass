@@ -4,7 +4,7 @@ metadata: # Dictionary
   name: myapp-pod
   labels: # Dictionary
     app: myapp  # Key value paids
-  namespace: default 
+  namespace: default # if default is used, no need to specify namespace
 spec:
   containers: # List
     - name: myapp
