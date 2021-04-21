@@ -1,4 +1,4 @@
-apiVersion: v1 # String
+apiVersion: v1 # String - core/v1 - shorthand to v1
 kind: Pod # String
 metadata: # Dictionary
   name: myapp-pod
